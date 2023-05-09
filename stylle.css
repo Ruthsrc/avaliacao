@@ -1,0 +1,124 @@
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #303030;
+    color: #fff;
+}
+.header {
+    width: 100%;
+    padding:20px;
+    background-color: #c3c3c3;
+}
+
+.nav{
+    display: flex;
+    column-gap: 25px;
+}
+.nav a {
+    
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.main, .foto, .fotoo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.foto img{
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.main img{
+    text-align: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+
+    
+}
+.header--about h1, .header--projects h1, .main--contact h1{
+    color: pink;
+    font-size: 32px;
+}
+
+.section--about h2{
+    font-size: 28px;
+    color: pink;
+}
+.social-links {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.social-links img{
+    width: 40px;
+    height: 40px;
+}
+.social-links a {
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.projects-list li {
+
+    width: 200px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-list img{
+    width: 200px;
+}
+.main--contact form{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.label {
+    display: flex ;
+    flex-direction:column;
+    row-gap: 10px;
+    width: 40%;
+
+}
+input, textarea{
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.form--message-input{
+    width: 100%;
+}
+textarea {
+    
+    
+    height: 150px;
+}
+
+button{
+
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background-color: pink;
+    width: 220px;
+    padding: 16px 0;
+
+}
